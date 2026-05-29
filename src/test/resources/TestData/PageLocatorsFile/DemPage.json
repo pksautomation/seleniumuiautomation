@@ -1,0 +1,116 @@
+{
+  "Create Client": {
+    "Strategy": "xpath",
+    "Value": "//button[contains(text(),'Create client')]",
+    "Description": "Create Client",
+    "type": "button"
+  },
+  "Create Client Label": {
+    "Strategy": "xpath",
+    "Value": "//h4[contains(text(),'Create client')]",
+    "Description": "Create Client Label",
+    "type": "label"
+  },
+  "ClientName": {
+    "Strategy": "name",
+    "Value": "clientName",
+    "Description": "Client Name Input",
+    "type": "label"
+  },
+  "Database Dropdown": {
+    "Strategy": "xpath",
+    "Value": "//div[contains(@class, 'Overlay-wrapper')]//button//span",
+    "Description": "Database Dropdown",
+    "type": "button"
+  },
+  "Create Client Button": {
+    "Strategy": "xpath",
+    "Value": "//div[contains(@class, 'Overlay-wrapper')]//button[contains(text(),'Create client')]",
+    "Description": "Create Client Button",
+    "type": "button"
+  },
+  "Clients Label": {
+    "Strategy": "xpath",
+    "Value": "//p[contains(text(),'Clients')]",
+    "Description": "Clients Label",
+    "type": "label"
+  },
+  "DEM Installer": {
+    "Strategy": "xpath",
+    "Value": "//h3[contains(text(),'DEM Installer')]",
+    "Description": "Download Button",
+    "type": "button"
+  },
+  "Download Button": {
+    "Strategy": "xpath",
+    "Value": "//button[contains(text(),'Download client')]",
+    "Description": "Download Button",
+    "type": "button"
+  },
+  "Client Details Nav Bar": {
+    "Strategy": "xpath",
+    "Value": "//div[contains(@class, 'HorizontalNav')]//div",
+    "Description": "Client Details Nav Bar",
+    "type": "button"
+  },
+  "Edit Icon": {
+    "Strategy": "xpath",
+    "Value": "//div[contains(@class,'Button-icon')]/i[contains(text(),'edit_round')]",
+    "Description": "Edit Icon",
+    "type": "button"
+  },
+  "Directory Path Input": {
+    "Strategy": "xpath",
+    "Value": "//input[@placeholder='Enter directory path']",
+    "Description": "Directory Path Input",
+    "type": "input"
+  },
+  "Save Button": {
+    "Strategy": "xpath",
+    "Value": "//button[contains(text(),'Save')]",
+    "Description": "Save Button",
+    "type": "button"
+  },
+  "Updated Directory Path": {
+    "Strategy": "xpath",
+    "Value": "//span[contains(text(),'C:/aditya/temp')]",
+    "Description": "Updated Directory Path",
+    "type": "label"
+  },
+  "Notification Tab": {
+    "Strategy": "xpath",
+    "Value": "//span[contains(text(),'Notification')]",
+    "Description": "Updated Directory Path",
+    "type": "label"
+  },
+  "Add More": {
+    "Strategy": "xpath",
+    "Value": "//span[contains(text(),'Add more')]",
+    "Description": "Updated Directory Path",
+    "type": "label"
+  },
+  "Notification Email": {
+    "Strategy": "xpath",
+    "Value": "//input[@placeholder='johndeep@gmail.com']",
+    "Description": "Updated Directory Path",
+    "type": "label"
+  },
+  "Updated Notification Email": {
+    "Strategy": "xpath",
+    "Value": "//span[contains(text(),'some_name')]",
+    "Description": "Updated Notification Email",
+    "type": "label"
+  },
+  "Client Search Filter": {
+    "Strategy": "xpath",
+    "Value": "//input[@placeholder='Search by client name…']",
+    "Description": "Client Search Filter",
+    "type": "input"
+  },
+  "Client Row": {
+    "Strategy": "xpath",
+    "Value": "//span[text()='ci-dev-mssql']",
+    "Description": "Client Row",
+    "type": "label"
+  }
+}

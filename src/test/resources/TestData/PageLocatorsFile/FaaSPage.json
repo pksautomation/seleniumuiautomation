@@ -1,0 +1,44 @@
+{
+	"Metadata":{
+		"Strategy":"xpath",
+		"Value":"//button[text()='Add metadata']",
+		"Description":"Add metadata",
+		"type": "button"
+	},
+	"MetadataName":{
+		"Strategy":"xpath",
+		"Value":"(//input[@placeholder='Search Metadata Name'])[2]",
+		"Description":"Search metadata name",
+		"type": "input"
+	},
+	"SelectMetadata":{
+		"Strategy":"xpath",
+		"Value":"//span[@data-test='MetadataList-Sidesheet-List-FunctionName']",
+		"Description":"Select the metadata name",
+		"type": "text"
+	},
+	"Version":{
+		"Strategy":"xpath",
+		"Value":"//span[text()='Select']",
+		"Description":"Search the metadata version",
+		"type": "dropdown"
+	},
+	"metadataVersion":{
+		"Strategy":"xpath",
+		"Value":"//div[@data-test='DesignSystem-DropdownOption--DEFAULT']",
+		"Description":"Select the metadata version",
+		"type": "text"
+	},
+	"MetadataDeploy":{
+		"Strategy":"xpath",
+		"Value":"//button[text()='Deploy']",
+		"Description":"Deploy the metadata",
+		"type": "button"
+	},
+	"MetadataAccepted":{
+		"Strategy":"xpath",
+		"Value":"//h5[@data-test='DesignSystem-Heading']",
+		"Description":"Metadata Deployment Accepted",
+		"type": "text"
+	}
+}

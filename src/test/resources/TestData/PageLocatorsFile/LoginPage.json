@@ -1,0 +1,40 @@
+{
+		"Email":
+		{
+			"Strategy":"xpath",
+			"Value":"(//*[text()='Email']/../input[@type!='file' and @type!='checkbox' ])[1]",
+			"Description":"Email as User Name",
+			"type": "input"
+		},
+			"Password":{
+				"Strategy":"xpath",
+				"Value":"(//*[text()='Password']/../input[@type!='file' and @type!='checkbox' ])[1]",
+				"Description":"Password",
+				"type": "input"
+				},
+		"SignIn":{
+			"Strategy":"xpath",
+			"Value":"(//button[contains(text(),'Sign in')])[1]",
+			"Description":"Sign In Button",
+			"type": "button"
+		},
+		"InnovaccerLoginArrow":{
+			"LocatorId":"InnovaccerLoginArrow",
+			"Strategy":"xpath",
+			"Value":"//div[text()='Innovaccer']",
+			"Description":"Innovaccer Arrow icon on Login Home Page",
+			"type": "button"
+		},
+		"Care": {
+			"Strategy": "xpath",
+      		"Value": "//span[normalize-space()='Care']",
+      		"Description": "Care Option dropdown",
+      		"type": "dropdown"
+		},
+		"LogOut": {
+			"Strategy": "xpath",
+      		"Value": "//*[@data-title='Logout']",
+      		"Description": "Log Out Button",
+      		"type": "button"
+		}
+}

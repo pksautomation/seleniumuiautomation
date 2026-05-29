@@ -1,0 +1,8 @@
+{
+  "Email": {
+    "Strategy": "xpath",
+    "Value": "(//*[text()='Email']/../input[@type!='file' and @type!='checkbox' ])[1]",
+    "Description": "Email as User Name",
+    "type": "input"
+  }
+}

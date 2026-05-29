@@ -1,0 +1,18 @@
+{
+  "TestCaseId": "testScenarioID7",
+  "Description": "Verify create user with All  Field",
+  "ZephyrScaleId": "JIRA-103",
+  "FeatureName" : "Non-Functional User Creation Flow "
+  "Priority": "High",
+  "Package": "com.innovaccer.applm.pom",
+  "Steps": [
+    {"ClassName": "LoginPage", "MethodName": "_navigate_to_the_login_page", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnInnovaccerLoginButton", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_fillUserCredential", "TestData": "Credential"},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnSubmitButton", "TestData": ""},
+    {"ClassName": "MyApplicationPage", "MethodName": "_goToAdminUserPage", "TestData": ""},
+    {"ClassName": "CreateUserPage", "MethodName": "_clickOnNewUserButton", "TestData": ""},
+    {"ClassName": "CreateUserPage", "MethodName": "_fillUserDetails", "TestData": "UserCreationWithAllField"},
+    {"ClassName": "CreateUserPage", "MethodName": "_verifyCreateButtonStatus", "TestData": ""}
+  ]
+}

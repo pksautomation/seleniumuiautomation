@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo_UI_Automation_Suit" duration-ms="25660" started-at="2023-01-18T08:07:35Z" finished-at="2023-01-18T08:08:01Z">
+    <groups>
+    </groups>
+    <test name="Demo_UI_Automation_Test" duration-ms="25660" started-at="2023-01-18T08:07:35Z" finished-at="2023-01-18T08:08:01Z">
+      <class name="testrunner.ScenariosRunner">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testrunner.ScenariosRunner@4f9a3314]" test-instance-name="scenarioRunner_Login with Invalid Email Id and password" name="startReport" is-config="true" duration-ms="397" started-at="2023-01-18T08:07:35Z" finished-at="2023-01-18T08:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestContext)[pri:0, instance:testrunner.ScenariosRunner@4f9a3314]" test-instance-name="scenarioRunner_Login with Invalid Email Id and password" name="BeforeMethod" is-config="true" duration-ms="25" started-at="2023-01-18T08:07:36Z" finished-at="2023-01-18T08:07:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testrunner.ScenariosRunner.scenarioRunner(java.lang.String[])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@59838256]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@131a7516]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="FAIL" signature="scenarioRunner([Ljava.lang.String;)[pri:0, instance:testrunner.ScenariosRunner@4f9a3314]" test-instance-name="scenarioRunner_Login with Invalid Email Id and password" name="scenarioRunner" duration-ms="22098" started-at="2023-01-18T08:07:36Z" data-provider="ScenariosRunner" finished-at="2023-01-18T08:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7d4d8579]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenarioRunner -->
+        <test-method status="PASS" signature="getResult(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:testrunner.ScenariosRunner@4f9a3314]" test-instance-name="scenarioRunner_Login with Invalid Email Id and password" name="getResult" is-config="true" duration-ms="1" started-at="2023-01-18T08:07:58Z" finished-at="2023-01-18T08:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testrunner.ScenariosRunner.scenarioRunner(java.lang.String[])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@59838256]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@131a7516]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name=scenarioRunner_Login with Invalid Email Id and password status=FAILURE method=ScenariosRunner.scenarioRunner([Ljava.lang.String;)[pri:0, instance:testrunner.ScenariosRunner@4f9a3314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testrunner.ScenariosRunner@4f9a3314]" test-instance-name="scenarioRunner_Login with Invalid Email Id and password" name="tearDown" is-config="true" duration-ms="2164" started-at="2023-01-18T08:07:58Z" finished-at="2023-01-18T08:08:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenarioRunner_Login with Invalid Email Id and password status=FAILURE method=ScenariosRunner.scenarioRunner([Ljava.lang.String;)[pri:0, instance:testrunner.ScenariosRunner@4f9a3314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testrunner.ScenariosRunner@4f9a3314]" test-instance-name="scenarioRunner_Login with Invalid Email Id and password" name="tearDown" is-config="true" duration-ms="321" started-at="2023-01-18T08:08:01Z" finished-at="2023-01-18T08:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testrunner.ScenariosRunner -->
+    </test> <!-- Demo_UI_Automation_Test -->
+  </suite> <!-- Demo_UI_Automation_Suit -->
+</testng-results>

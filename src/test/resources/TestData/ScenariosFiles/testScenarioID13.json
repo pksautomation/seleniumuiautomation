@@ -1,0 +1,22 @@
+{
+  "TestCaseId": "testScenarioID13",
+  "Description": "Executing Test Scenario with ID as 13",
+  "ZephyrScaleId": "JIRA-101",
+  "FeatureName" : "DEM Client Update Notification Email",
+  "Priority": "High",
+  "Package": "com.innovaccer.applm.pom",
+  "Steps": [
+    {"ClassName": "LoginPage", "MethodName": "_navigate_to_the_login_page", "TestData": "Credential"},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnInnovaccerLoginButton", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_fillUserCredential", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnSubmitButton", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_navigateToDemSavedClientPage", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_validateClientNavBarOptions", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_clickOnNotificationTab", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_clickOnAddMoreButton", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_enterEmailInInput", "TestData": "ClientValidation"},
+    {"ClassName": "DemPage", "MethodName": "_selectInfoColumn", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_clickOnSaveButton", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_validateEmailAndColumn", "TestData": ""}
+  ]
+}

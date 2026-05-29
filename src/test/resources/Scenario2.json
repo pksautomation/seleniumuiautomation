@@ -1,0 +1,18 @@
+{
+  "TestCaseId": "10000",
+  "Description": "Executing to validate Reflections in Java",
+  "ZephyrScaleId": "JIRA-100",
+  "Priority": "High",
+  "Package": "com.innovaccer.applm.stepdefination",
+  "Steps": [
+    {"ClassName": "LoginPageStep", "MethodName": "load_test_data_for_scenario", "TestData": "Credential"},
+    {"ClassName": "LoginPageStep", "MethodName": "launch_browser", "TestData": ""},
+    {"ClassName": "LoginPageStep", "MethodName": "navigate_to_the_login_page", "TestData": ""},
+    {"ClassName": "LoginPageStep", "MethodName": "login_into_application", "TestData": ""},
+    {"ClassName": "LoginPageStep", "MethodName": "load_test_data_for_scenario", "TestData": "UserCreationWithAllField"},
+    {"ClassName": "ApplicationPageSteps", "MethodName": "user_land_on_user_admin_page", "TestData": ""},
+    {"ClassName": "CreateUserSteps", "MethodName": "clicked_on_create_user_button", "TestData": ""},
+    {"ClassName": "CreateUserSteps", "MethodName": "fill_user_details", "TestData": ""},
+    {"ClassName": "CreateUserSteps", "MethodName": "verify_status_of_create_user_button", "TestData": "Clickable"}
+  ]
+}

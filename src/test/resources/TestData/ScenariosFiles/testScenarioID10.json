@@ -1,0 +1,17 @@
+{
+  "TestCaseId": "testScenarioID10",
+  "Description": "Executing Test Scenario with ID as 10",
+  "ZephyrScaleId": "JIRA-101",
+  "FeatureName" : "DEM Installer Page Validation",
+  "Priority": "High",
+  "Package": "com.innovaccer.applm.pom",
+  "Steps": [
+    {"ClassName": "LoginPage", "MethodName": "_navigate_to_the_login_page", "TestData": "Credential"},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnInnovaccerLoginButton", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_fillUserCredential", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnSubmitButton", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_clickOnDemInstallerOption", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_validateUrlForDemInstallerPage", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_validateDownloadButtonIsPresent", "TestData": ""}
+  ]
+}

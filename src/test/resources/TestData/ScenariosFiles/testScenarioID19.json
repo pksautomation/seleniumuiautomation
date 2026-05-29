@@ -1,0 +1,18 @@
+{
+  "TestCaseId": "testScenarioID19",
+  "Description": "Executing Test Scenario with ID as 19",
+  "ZephyrScaleId": "JIRA-118",
+  "FeatureName" : "Check_If_User_Exists",
+  "Priority": "High",
+  "Package": "com.innovaccer.applm.pom",
+  "Steps": [
+{"ClassName": "LoginPage", "MethodName": "_navigate_to_the_login_page", "TestData": "Credential"},
+{"ClassName": "LoginPage", "MethodName": "_clickOnInnovaccerLoginButton", "TestData": ""},
+{"ClassName": "LoginPage", "MethodName": "_fillUserCredential", "TestData": ""},
+{"ClassName": "LoginPage", "MethodName": "_clickOnSubmitButton", "TestData": ""},
+{"ClassName": "LoginPage", "MethodName": "_verifyLoginSuccessFull", "TestData": ""},
+{"ClassName": "MyApplicationPage", "MethodName": "_goToAdminUserPage", "TestData": ""},
+{"ClassName": "CreateUserPage", "MethodName": "_searchUserDetail", "TestData": "UserCreationWithAllMandtoryField"},
+{"ClassName": "CreateUserPage", "MethodName": "_verifyUserExists", "TestData": "UserCreationWithAllMandtoryField"}
+]
+}

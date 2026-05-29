@@ -1,0 +1,12 @@
+ {
+ "exclude_deleted_users": true,
+"exclude_internal_users": true,
+"exclude_users": true,
+"ids": ["full_name", "email", "status", "manager_sponsor_name", "chapter_sponsor_name"],
+"keys": ["full_name", "email", "status", "manager_sponsor_name", "chapter_sponsor_name"],
+"onlyActive": false,
+"onlyDisabled": false,
+"response_type": "list",
+"role_type": [],
+"searchTerm": ""
+}

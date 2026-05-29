@@ -1,0 +1,129 @@
+{
+    "resourceType": "Consent",
+    "status": "active",
+    "scope": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+                "code": "patient-privacy"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://loinc.org",
+                    "code": "59284-0"
+                }
+            ]
+        }
+    ],  
+    "patient": {
+        "reference": "Patient/PATIENTID",
+        "display": "PATIENTNAME"
+    },
+    "policyRule": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                "code": "{$policyRule}"
+            }
+        ]
+    },
+    "provision": {
+        "type": "permit",
+        "action": [
+            {
+                "coding": [
+                    {
+                        "code": "access",
+                        "system": "https://terminology.hl7.org/1.0.0/CodeSystem-consentaction.html"
+                    }
+                ]
+            },
+            {
+                "coding": [
+                    {
+                        "code": "use",
+                        "system": "https://terminology.hl7.org/1.0.0/CodeSystem-consentaction.html"
+                    }
+                ]
+            }
+        ],
+        "provision": [
+            {
+                "type": "deny",
+                "class": [
+                    {
+                        "code": "Condition",
+                        "system": "https://loinc.org/"
+                    }
+                ],
+                "code": [
+                    {
+                        "coding": [
+                            {
+                                "code": "CONDITIONCODE",
+                                "system": "CONDITIONSYSTEM", 
+                                "display": "CONDITIONDISPLAY"
+                            }
+                        ]
+                    }
+                ]
+            },
+                        {
+                "type": "deny",
+                "class": [
+                    {
+                        "code": "AllergyIntolerance",
+                        "system": "https://loinc.org/"
+                    }
+                ],
+                "code": [
+                    {
+                        "coding": [
+                            { 
+                               "code": "ALLERGYINTOLERANCECODE",
+                                "system": "ALLERGYINTOLERANCESYSTEM", 
+                                "display": "ALLERGYINTOLERANCEDISPLAY"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "deny",
+                "class": [
+                    {
+                        "code": "Observation",
+                        "system": "https://loinc.org/"
+                    }
+                ],
+                "code": [
+                    {
+                        "coding": [
+                            {
+
+                                "code": "OBSERVATIONCODE",
+                                "system": "OBSERVATIONSYSTEM", 
+                                "display": "OBSERVATIONDISPLAY"
+                            }
+                        ]
+                    }
+                ]
+            }
+             
+        ]
+    },
+    "extension": [
+        {
+            "url": "https://xyz.oninnovaccer.com/documentation/extensions/app-id-extension",
+            "valueString": "app_12345"
+        },
+        {
+            "url": "https://xyz.oninnovaccer.com/documentation/extensions/user-id-extension",
+            "valueString": "user_12345"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo_UI_Automation_Suit]">
+  <test thread-count="5" name="Demo_UI_Automation_Test(failed)">
+    <classes>
+      <class name="testrunner.ScenariosRunner">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="BeforeMethod"/>
+          <include name="scenarioRunner"/>
+        </methods>
+      </class> <!-- testrunner.ScenariosRunner -->
+    </classes>
+  </test> <!-- Demo_UI_Automation_Test(failed) -->
+</suite> <!-- Failed suite [Demo_UI_Automation_Suit] -->

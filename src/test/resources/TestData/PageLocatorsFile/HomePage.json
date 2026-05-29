@@ -1,0 +1,9 @@
+{
+  "App List On Home Page":
+  {
+    "Strategy":"xpath",
+    "Value":"//h5",
+    "Description":"App List On Home Page",
+    "type": "label"
+  }
+}

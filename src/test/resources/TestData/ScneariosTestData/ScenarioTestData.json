@@ -1,0 +1,135 @@
+{
+   "UserCreationFNameMandatoryFieldValidation":{
+     "Last name":"Singh",
+     "Email":"pramod.singh+1@innovaccer.com",
+     "Primary user type":"Admin Staff",
+     "Role":"AIMS ADMIN",
+     "CreateButtonStatus" : "Disable"
+    },
+    "UserCreationEmailMandatoryFieldValidation":{
+      "First name":"pramod",
+      "Last name":"Singh",
+      "Primary user type":"Admin Staff",
+      "Role":"AIMS ADMIN",
+      "CreateButtonStatus" : "Disable"
+     },
+     "UserCreationLNameMandatoryFieldValidation":{
+        "First name":"pramod",
+        "Email":"pramod.singh+1@innovaccer.com",
+        "Primary user type":"Admin Staff",
+        "Role":"AIMS ADMIN",
+        "CreateButtonStatus" : "Disable"
+    },
+    "UserCreationPUserTypeMandatoryFieldValidation":{
+        "First name":"pramod",
+        "Last name":"Singh",
+        "Email":"pramod.singh+1@innovaccer.com",
+        "Role":"AIMS ADMIN",
+        "CreateButtonStatus" : "Disable"
+    },
+    "UserCreationRoleMandatoryFieldValidation":{
+         "First name":"pramod",
+         "Last name":"Singh",
+         "Email":"pramod.singh+1@innovaccer.com",
+         "Primary user type":"Admin Staff",
+         "CreateButtonStatus" : "Disable"
+    },
+    "UserCreationWithAllMandtoryField":{
+          "First name":"pramod",
+          "Last name":"Singh",
+          "Email":"pramod.singh+1@innovaccer.com",
+          "Primary user type":"Admin Staff",
+          "Role":"AIMS ADMIN",
+          "CreateButtonStatus" : "Clickable"
+    },
+    "UserCreationWithAllField":
+    {
+          "First name":"pramod",
+          "Middle name":"fjjhhff",
+          "Last name":"Singh",
+          "Maiden name":"Kumar",
+          "Email":"pramod.singh+1@innovaccer.com",
+          "Date of birth":"12011992",
+          "Job title":"se",
+          "Department":"engineering",
+          "Work phone":"1221111111",
+          "Secondary phone":"1221111111",
+          "Gender":"Male",
+          "Primary user type":"Admin Staff",
+          "Secondary user type":"Health Coach",
+          "User location type":"Acute Urban",
+          "Organization type":"Rural",
+          "Manager-level sponsor":"Admin, ACO",
+          "Chapter-level sponsor":"Admin, ACO",
+          "Groups":"Care Protocol - Test",
+          "Role":"AIMS ADMIN",
+          "CreateButtonStatus" : "Clickable"
+        },
+      "TestDataName1":
+      {
+        "username":{
+          "type":"ALPHA_NUMERIC",
+          "length":10
+        },
+        "Password":"fdfdfdfdf",
+        "Organisation":{
+        "selection":1,
+        "values":[
+            "platform",
+            "engineering"
+         ]
+        },
+      "email_id":"pramod.singh@innovaccer.com"
+    },
+   "TestDataName2":{
+      "username":{
+         "type":"NUMERIC",
+         "length":10
+      },
+      "Password":"fdfdfdfdf",
+      "Organisation":{
+         "selection":2,
+         "values":[
+            "platform",
+            "engineering"
+         ]
+      }
+   },
+   "TestDataName3":{
+      "userName":"test",
+      "Password":"fdfdfdfdf",
+      "email_id":{
+         "suffix":"@innovaccer.com",
+         "type":"ALPHABETIC",
+         "length":16
+      }
+   },
+   "InvalidCredential":{
+      "Email":"aditya.pandey@innovaccer.com",
+      "Password":"Care@123",
+      "EnvURL":"https://indata.internal.tech:82/login"
+   },
+   "Credential":{
+      "Email":"ayush.chaurasia@innovaccer.com",
+      "Password":"Ayush@123",
+      "EnvURL":"https://dev.actionhub.dapinternal.com"
+   },
+  "SearchData": {
+    "Name": "nikita gatagat",
+    "Email": "nikita.gatagat@innovaccer.com",
+    "Role": "AIMS ADMIN"
+  },
+  "CreateClient": {
+    "ClientName": "Demo Client 1",
+    "Database Dropdown": "MSSQL"
+  },
+  "ClientValidation": {
+    "Directory Path Input": "C:/aditya/temp",
+    "Notification Email": "some_name.104@innovaccer.com",
+    "Client Search Filter": "ci-dev-mssql"
+  },
+  "Metadata":{
+	   "Name":"testmeta",
+		"Version": "3.0.27"
+  }
+}

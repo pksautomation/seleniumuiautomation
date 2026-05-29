@@ -1,0 +1,153 @@
+{
+  "New user":{
+      "Strategy": "xpath",
+      "Value": "//button[contains(text(),'New user')]",
+      "Description": "New User",
+      "type": "Button"
+    },
+  "First name":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='First name']/../../..//input[@type!='file' and @type!='checkbox' ]",
+      "Description": "First name",
+      "type": "input"
+    },
+  "Last name":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Last name']/../../..//input[@type!='file' and @type!='checkbox' ]",
+      "Description": "Last name",
+      "type": "input"
+    },
+  "Middle name":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Middle name']/../../..//input[@type!='file' and @type!='checkbox' ]",
+      "Description": "Middle name",
+      "type": "input"
+    },
+  "Maiden name":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Maiden name']/../../..//input[@type!='file' and @type!='checkbox' ]",
+      "Description": "Maiden name input field",
+      "type": "input"
+    },
+  "Email":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Email']/../../..//input[@type!='file' and @type!='checkbox' ]",
+      "Description": "Email input field",
+      "type": "button"
+    },
+  "Date of birth":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Date of birth']/../../..//input[@type!='file' and @type!='checkbox' ]",
+      "Description": "Date of birth input field",
+      "type": "button"
+    },
+  "Job title":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Job title']/../../..//input[@type!='file' and @type!='checkbox' ]",
+      "Description": "Job title input field",
+      "type": "button"
+    },
+  "Department":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Department']/../../..//input[@type!='file' and @type!='checkbox' ]",
+      "Description": "Department input field",
+      "type": "input"
+    },
+  "Work phone":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Work phone']/../../..//input[@type!='file' and @type!='checkbox' ]",
+      "Description": "Work phone input field",
+      "type": "input"
+    },
+  "Secondary phone":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Secondary phone']/../../../input[@type!='file' and @type!='checkbox' ]",
+      "Description": "Secondary phone input field",
+      "type": "input"
+    },
+  "Gender":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Gender']/../../..//button",
+      "Description": "Gender dropdown icon",
+      "type": "dropdown"
+    },
+  "Primary user type":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Primary user type']/../../..//button",
+      "Description": "Primary user type dropdown",
+      "type": "dropdown"
+    },
+  "Secondary user type":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Secondary user type']/../../..//button",
+      "Description": "Secondary user type dropdown",
+      "type": "dropdown"
+    },
+  "User location type":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='User location type']/../../..//button",
+      "Description": "User location type dropdown",
+      "type": "dropdown"
+    },
+  "Organization type":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Organization type']/../../..//button",
+      "Description": "Organization type dropdown",
+      "type": "dropdown"
+    },
+  "Manager-level sponsor":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Manager-level sponsor']/../../..//button",
+      "Description": "Manager-level sponsor Dropdown icon",
+      "type": "dropdown"
+    },
+  "Chapter-level sponsor":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Chapter-level sponsor']/../../..//button",
+      "Description": "Chapter-level sponsor Dropdown icon",
+      "type": "button"
+    },
+  "Role":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Role']/../../..//button",
+      "Description": "Role Dropdown icon",
+      "type": "button"
+    },
+  "Groups":{
+      "Strategy": "xpath",
+      "Value": "//*[text()='Gender']/../../..//button",
+      "Description": "Group Dropdown icon",
+      "type": "button"
+  },
+  "Search": {
+	  "Strategy": "xpath",
+      "Value": "//input[@placeholder='Search by name, role or email...']",
+      "Description": "Search box by Name, role or email",
+      "type": "input"
+  },
+  "CreateUser": {
+	  "Strategy": "xpath",
+      "Value": "//button[normalize-space()='Create User']",
+      "Description": "Create User Button",
+      "type": "button"
+  },
+  "checkUserExists":{
+	  "Strategy": "xpath",
+      "Value": "//h5[normalize-space()='Could not create a new user account']",
+      "Description": "Check if Email Already Exists",
+      "type": "text"
+  },
+  "DeleteUser":{
+	  "Strategy": "xpath",
+      "Value": "//i[normalize-space()='delete_round']",
+      "Description": "Delete Activer User",
+      "type": "button"
+  },
+  "DeActivateUser":{
+	  "Strategy": "xpath",
+      "Value": "//i[normalize-space()='report_round']",
+      "Description": "DeActivate User",
+      "type": "button"
+  }
+  }
+}

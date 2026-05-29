@@ -1,0 +1,1 @@
+{"rules":[{"allow":[],"phi_allow_all":true,"parent":null,"deny":[],"phi_allow":[],"phi_deny_all":false,"entity_primary_key":"aco_id","user_access_filter":true,"entity_display_key":"ACO_NAME","name":"aco","phi_deny":[],"allow_all":true,"_id":0,"deny_all":false,"selected":true,"child":"region"}]}

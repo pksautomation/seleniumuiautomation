@@ -1,0 +1,16 @@
+{
+  "TestCaseId": "testScenarioID9",
+  "Description": "Executing Test Scenario with ID as 9",
+  "ZephyrScaleId": "JIRA-101",
+  "FeatureName" : "DEM Home Page Validation",
+  "Priority": "High",
+  "Package": "com.innovaccer.applm.pom",
+  "Steps": [
+    {"ClassName": "LoginPage", "MethodName": "_navigate_to_the_login_page", "TestData": "Credential"},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnInnovaccerLoginButton", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_fillUserCredential", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnSubmitButton", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_navigateToDemScreen", "TestData": ""},
+    {"ClassName": "DemPage", "MethodName": "_validateClientsHeadingLabel", "TestData": ""}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "TestCaseId": "testScenarioID21",
+  "Description": "Executing Test Scenario with ID as 21",
+  "ZephyrScaleId": "JIRA-121",
+  "FeatureName" : "Successful_Logout",
+  "Priority": "High",
+  "Package": "com.innovaccer.applm.pom",
+  "Steps": [
+{"ClassName": "LoginPage", "MethodName": "_navigate_to_the_login_page", "TestData": "Credential"},
+{"ClassName": "LoginPage", "MethodName": "_clickOnInnovaccerLoginButton", "TestData": ""},
+{"ClassName": "LoginPage", "MethodName": "_fillUserCredential", "TestData": ""},
+{"ClassName": "LoginPage", "MethodName": "_clickOnSubmitButton", "TestData": ""},
+{"ClassName": "LoginPage", "MethodName": "_verifyLoginSuccessFull", "TestData": ""},
+{"ClassName": "LoginPage", "MethodName": "_clickOnLogoutButton", "TestData": ""},
+{"ClassName": "LoginPage", "MethodName": "_verifyLogoutSuccessFull", "TestData": ""},
+]
+}

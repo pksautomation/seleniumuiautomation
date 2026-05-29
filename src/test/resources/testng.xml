@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Demo_UI_Automation_Suit" parallel = "methods"> -->
+<suite name="Demo_UI_Automation_Suit">
+	<test name = "Demo_UI_Automation_Test">
+		<classes>
+			<class name="testrunner.ScenariosRunner" />
+		</classes>
+	</test>
+</suite>

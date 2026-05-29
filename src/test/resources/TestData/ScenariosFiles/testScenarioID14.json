@@ -1,0 +1,16 @@
+{
+  "TestCaseId": "testScenarioID14",
+  "Description": "Executing Test Scenario with ID as 14",
+  "ZephyrScaleId": "JIRA-101",
+  "FeatureName" : "Home Page Apps Validation",
+  "Priority": "High",
+  "Package": "com.innovaccer.applm.pom",
+  "Steps": [
+    {"ClassName": "LoginPage", "MethodName": "_navigate_to_the_login_page", "TestData": "Credential"},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnInnovaccerLoginButton", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_fillUserCredential", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnSubmitButton", "TestData": ""},
+    {"ClassName": "HomePage", "MethodName": "_compareCountOfOptions", "TestData": ""},
+    {"ClassName": "HomePage", "MethodName": "_compareValuesOfOptions", "TestData": ""}
+  ]
+}
