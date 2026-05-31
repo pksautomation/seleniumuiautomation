@@ -1,19 +1,19 @@
-package com.innovaccer.applm.pom;
+package com.pksautomation.uidemo.pom;
 
-import com.innovaccer.utils.v2.ElementActionsUtils;
+import com.pksautomation.utils.v2.ElementActionsUtils;
 
-import com.innovaccer.utils.v2.BasePage;
+import com.pksautomation.utils.v2.BasePage;
 
 public class CreateUserPage extends BasePage {
-	
+
 	public CreateUserPage() {
     }
-	
+
 	public CreateUserPage _clickOnNewUserButton() {
 		clickOnButton("New user");
 		return this;
 	}
-	
+
 	public CreateUserPage _fillUserDetails() {
 		try {
 		fillData("First name");
@@ -40,15 +40,15 @@ public class CreateUserPage extends BasePage {
 		}
 		return this;
 	}
-	
+
 	/**
-	 * 
+	 *
 	 * @return
 	 */
 	public boolean _isCreateUserButtonEnable() {
 		return isButtonClickable("Create User");
 	}
-	
+
     public void _verifyCreateButtonStatus() throws Throwable {
 		boolean status = _isCreateUserButtonEnable();
 		String buttonStatus = getTestData("CreateButtonStatus");
@@ -58,27 +58,27 @@ public class CreateUserPage extends BasePage {
 			assertTrue(" Disable of Create User Button ", !status, true,true);
 		}
     }
-   
+
     public void _searchUserDetail() {
     	clickOnButton("Search");
     	String data = getTestData("Email");
     	fillData("Search",data);
     }
-    
+
     public void _verifyUserExists() {
     	if(isElementDisplayed("Email")) {
     		logPass("User already exists", false);
     		assertTrue("User already exists", true,true);
-    		
+
     	}
     	else
     		assertFail("No user found",false,true);
     }
-    
+
     public void _clickOnCreateUserButton() {
     	clickOnButton("CreateUser");
     }
-    
+
     public void _verifyUserCreation() {
     	if(isElementDisplayed("checkUserExists")) {
     		assertFail("Could not create a new user account, Email Already Exists",false,true);
@@ -86,12 +86,13 @@ public class CreateUserPage extends BasePage {
     	else
     		assertTrue("New User is created",true,true);
 	}
-    
+
     public void _clickOnDeleteUser() {
     	clickOnButton("DeleteUser");
     }
-    
+
     public void _clickOnDeactivateUser() {
     	clickOnButton("DeActivateUser");
     }
 }
+

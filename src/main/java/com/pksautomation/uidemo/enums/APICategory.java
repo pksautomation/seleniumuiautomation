@@ -1,4 +1,4 @@
-package com.innovaccer.applm.enums;
+package com.pksautomation.uidemo.enums;
 
 public enum APICategory {
 
@@ -8,7 +8,7 @@ public enum APICategory {
 	PatchCustomerPermissionsAPI(20),RegisterTenantAPI(21), CreateAdminUserAPI(22), AssignRoleToAdminAPI(23),CreateCustomeReq(24), CreateModuleReq(25),
 	CreateSubModuleReq(26), CreateTenantReq(27), CreatePermissionsReq(28), CreateRoutesReq(29),RegisterTenantReq(30), CreateAdminUserReq(31), PatchTenantPermissionsAPI(32),
 	UpdateLicenseAPI(33),CreateApplication(34),ApplicationStatus(35),editApplication(36),GetApplicationCredential(37),AclStrategies(38), AccessToken(39),AppInfo(40),CreateApplicationDraft(41);
-	
+
 	private int value;
 	APICategory(int val){
 		this.value = val;
@@ -16,7 +16,8 @@ public enum APICategory {
 	public int getValue(){
 		return value;
 	}
-	
+
 }
+
 
 

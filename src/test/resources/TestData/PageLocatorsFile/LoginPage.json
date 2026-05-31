@@ -18,11 +18,11 @@
 			"Description":"Sign In Button",
 			"type": "button"
 		},
-		"InnovaccerLoginArrow":{
-			"LocatorId":"InnovaccerLoginArrow",
+		"PksAutomationLabLoginArrow":{
+			"LocatorId":"PksAutomationLabLoginArrow",
 			"Strategy":"xpath",
-			"Value":"//div[text()='Innovaccer']",
-			"Description":"Innovaccer Arrow icon on Login Home Page",
+			"Value":"//div[text()='PKS Automation Lab']",
+			"Description":"PKS Automation Lab arrow icon on Login Home Page",
 			"type": "button"
 		},
 		"Care": {

@@ -1,14 +1,14 @@
-package com.innovaccer.applm.constants;
+package com.pksautomation.uidemo.constants;
 
 import java.util.Map;
 
 import org.json.JSONObject;
 
-import com.innovaccer.applm.enums.APICategory;
+import com.pksautomation.uidemo.enums.APICategory;
 import com.jayway.restassured.response.Response;
 
 /**
- * 
+ *
  * @author i0465
  *
  */
@@ -69,6 +69,7 @@ public class Constant {
 	public static String appRedirectURL=null;
 	public static String multitenant_url=null;
 	public static String single_tenant_url=null;
-	
-	
+
+
 }
+

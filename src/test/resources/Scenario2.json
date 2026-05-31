@@ -3,7 +3,7 @@
   "Description": "Executing to validate Reflections in Java",
   "ZephyrScaleId": "JIRA-100",
   "Priority": "High",
-  "Package": "com.innovaccer.applm.stepdefination",
+  "Package": "com.pksautomation.uidemo.stepdefination",
   "Steps": [
     {"ClassName": "LoginPageStep", "MethodName": "load_test_data_for_scenario", "TestData": "Credential"},
     {"ClassName": "LoginPageStep", "MethodName": "launch_browser", "TestData": ""},

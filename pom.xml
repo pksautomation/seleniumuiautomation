@@ -18,9 +18,8 @@
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/net.lightbody.bmp/browsermob-proxy -->
 		<dependency>
-			<groupId>com.innovaccer.automationutils</groupId>
+			<groupId>com.pksautomation.automationutils</groupId>
 			<artifactId>AutomationUtils</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
@@ -31,6 +30,29 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
+				<version>2.5.2</version>
+				<executions>
+					<execution>
+						<id>install-automationutils-jar</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>install-file</goal>
+						</goals>
+						<configuration>
+							<file>${project.basedir}/../automationutils/target/AutomationUtils-0.0.1-SNAPSHOT.jar</file>
+							<pomFile>${project.basedir}/../automationutils/pom.xml</pomFile>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 
 	<profiles>
 		<profile>
@@ -52,7 +74,6 @@
 						<configuration>
 							<source>1.8</source>
 							<target>1.8</target>
-							<complierArgument></complierArgument>
 						</configuration>
 					</plugin>
 					<plugin>

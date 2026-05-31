@@ -1,9 +1,9 @@
-package com.innovaccer.applm.constants;
+package com.pksautomation.uidemo.constants;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.innovaccer.utils.Helper;
+import com.pksautomation.utils.Helper;
 
 public class AppConstant {
 	public static Map<String,String> map_app_ui_data=new HashMap<String,String>();
@@ -14,3 +14,4 @@ public class AppConstant {
 	public static String APP_SEARCH_TEARM=null;
 	public static String APP_DESC=null;
 }
+

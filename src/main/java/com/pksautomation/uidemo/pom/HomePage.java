@@ -1,6 +1,6 @@
-package com.innovaccer.applm.pom;
+package com.pksautomation.uidemo.pom;
 
-import com.innovaccer.utils.v2.BasePage;
+import com.pksautomation.utils.v2.BasePage;
 import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
@@ -36,3 +36,4 @@ public class HomePage extends BasePage {
 
 
 }
+

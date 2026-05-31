@@ -4,10 +4,10 @@
   "ZephyrScaleId": "JIRA-100",
   "FeatureName" : "Invalid_Login",
   "Priority": "High",
-  "Package": "com.innovaccer.applm.pom",
+  "Package": "com.pksautomation.uidemo.pom",
   "Steps": [
     {"ClassName": "LoginPage", "MethodName": "_navigate_to_the_login_page", "TestData": "InvalidCredential"},
-    {"ClassName": "LoginPage", "MethodName": "_clickOnInnovaccerLoginButton", "TestData": ""},
+    {"ClassName": "LoginPage", "MethodName": "_clickOnPksAutomationLabLoginButton", "TestData": ""},
     {"ClassName": "LoginPage", "MethodName": "_fillUserCredential", "TestData": ""},
     {"ClassName": "LoginPage", "MethodName": "_clickOnSubmitButton", "TestData": ""},
     {"ClassName": "LoginPage", "MethodName": "_verifyLoginSuccessFull", "TestData": ""}

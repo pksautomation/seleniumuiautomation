@@ -1,4 +1,4 @@
-package com.innovaccer.applm.enums;
+package com.pksautomation.uidemo.enums;
 
 
 
@@ -7,3 +7,4 @@ public enum ApprovalQuestionType {
 		ACCESS_CONTROL_QUESTIONS,
 		DATA_POLICIES_QUESTIONS
 }
+
